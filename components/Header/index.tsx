@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 import { AiOutlineSearch } from "react-icons/ai";
 import { CiUser } from "react-icons/ci";
@@ -10,6 +11,7 @@ const Header = () => {
             <div className='flex flex-col md:flex-row justify-around items-center mx-4'>
                 {/* logo starts */}
                 <div className='mb-2'>
+                    
                     <img src='../../assets/logo.png' alt="" className=' h-[50px] w-full md:w-[90px] xl:w-full object-contain'  />
                 </div>
                 {/* logo ends */}

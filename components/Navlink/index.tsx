@@ -8,7 +8,7 @@ console.log('hellllo',navlink)
     <div>
        <ul>
       <li>
-        <Link href={navlink.path}>{navlink.name}</Link>
+        <Link className='text-[12px]' href={navlink.path}>{navlink.name}</Link>
       </li>
      
     </ul>

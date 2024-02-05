@@ -40,7 +40,7 @@ const Navbar = () => {
     ]
     const [navlink, setNavlink] = useState(data)
     return (
-        <div className='flex flex-row justify-around items-center mx-[150px] my-4'>
+        <div className='flex flex-col md:flex-row justify-around items-center mx-[20px] xl:mx-[150px] my-4'>
            {navlink.map((item) => {
  return(
     <Navlink navlink={item} setNavlink={setNavlink} />
